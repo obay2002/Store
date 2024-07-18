@@ -1,0 +1,97 @@
+
+.list{
+    background-color: #495155;
+    height: 15px;
+    margin: -8;
+    padding: 42px; 
+  
+}
+.list a {
+    display: inline-block;
+    margin-right: 10px;/*تعديل المسافة بين العناصر حسب الحاجة*/
+  }
+
+a{
+text-decoration: none;
+color: #ffffff;
+}
+
+a:hover{
+color: rgb(228, 74, 47);
+font-size: 20px;
+}
+
+
+
+/* أسلوب التصميم للقائمة */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* زر القائمة */
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* محتوى القائمة */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* روابط القائمة */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* تحويل عنصر القائمة عند التحويم */
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  /* إظهار محتوى القائمة عند التحويم */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* إخفاء محتوى القائمة عند عدم التحويم */
+  .dropdown:hover .dropbtn {background-color: #e63f3f;}
+  
+
+  /* تعديل المنتجات  */
+
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-card {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+.product-card h3 {
+    margin-top: 10px;
+}
+.product-card p {
+    margin: 5px 0;
+}
+.product-card .price {
+    font-weight: bold;
+    color: green;
+}
